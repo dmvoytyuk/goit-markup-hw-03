@@ -4,8 +4,40 @@ body {
     background-color: #ffffff;
 }
 
+h1, h2, h3, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.nav-menu {
+    display: flex;
+}
+
 .nav-menu-logo {
-    
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -14,6 +46,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .logo-word {
@@ -22,6 +55,9 @@ body {
 
 .nav-menu-list {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 332px;
 }
 
 .nav-menu-link {
@@ -43,6 +79,8 @@ address {
 }
 
 .contacts-list {
+    display: flex;
+    gap: 40px;
     list-style-type: none;
     font-size: 16px;
     font-weight: 400;
@@ -62,6 +100,7 @@ address {
 
 .slogan {
     background-color: #2E2F42;
+    padding: 188px 472px;
 }
 
 .slogan-text {
@@ -71,9 +110,11 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .slogan-btn {
+    display: block;
     cursor: pointer;
     color: #fff;
     background-color: #4D5AE5;
@@ -82,6 +123,10 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 .slogan-btn:hover,
@@ -90,7 +135,18 @@ address {
 }
 
 .studio-list {
+    display: flex;
+    gap: 24px;
     list-style-type: none;
+}
+
+.studio {
+    padding: 120px 156px;
+}
+
+.studio-item {
+    width: 264px;
+    margin-bottom: 0;
 }
 
 .studio-item-title {
@@ -100,6 +156,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .studio-item-text {
@@ -111,6 +168,7 @@ address {
 
 .team {
     background-color:#F4F4FD;
+    padding: 120px 156px;
 }
 
 .team-title {
@@ -121,14 +179,24 @@ address {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .team-list {
+    display: flex;
+    gap: 24px;
     list-style-type: none;
+}
+
+.team-list img {
+    margin-bottom: 32px;
 }
 
 .team-item {
     background-color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-title {
@@ -138,6 +206,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -146,6 +215,12 @@ address {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.portfolio {
+    padding: 120px 156px;
 }
 
 .portfolio-title {
@@ -156,10 +231,21 @@ address {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
     list-style-type: none;
+}
+
+.portfolio-item-text-box {
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    padding: 16px 32px;
 }
 
 .portfolio-item-title {
@@ -168,6 +254,7 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-text {
