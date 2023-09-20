@@ -24,6 +24,11 @@ ul, ol {
     margin: 0 auto;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .header {
     display: flex;
     padding-left: 156px;
