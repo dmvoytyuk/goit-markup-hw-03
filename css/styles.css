@@ -20,7 +20,7 @@ ul, ol {
 }
 
 .container {
-    width: 1440px;
+    width: 1158px;
     margin: 0 auto;
 }
 
@@ -30,12 +30,12 @@ ul, ol {
 }
 
 .header {
-    display: flex;
-    padding-left: 156px;
-    padding-right: 156px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0 15px;
     border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display: flex;
 }
 
 .nav-menu {
