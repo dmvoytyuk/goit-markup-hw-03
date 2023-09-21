@@ -41,11 +41,9 @@ ol {
     padding-bottom: 120px;
 }
 
-/* .header-container {
+.header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-} */
+}
 
 .nav-menu {
     display: flex;
