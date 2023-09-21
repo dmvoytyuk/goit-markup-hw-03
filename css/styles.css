@@ -41,15 +41,15 @@ ol {
     padding-bottom: 120px;
 }
 
-.header-container {
+/* .header-container {
     display: flex;
-}
+    padding-top: 24px;
+    padding-bottom: 24px;
+} */
 
 .nav-menu {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-menu-logo {
@@ -73,6 +73,8 @@ ol {
     display: flex;
     gap: 40px;
     margin-right: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-menu-link {
