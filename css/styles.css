@@ -31,7 +31,7 @@ ol {
 }
 
 .container {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
