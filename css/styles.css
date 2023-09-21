@@ -42,13 +42,12 @@ ol {
 
 .header-container {
     display: flex;
+    padding: 24px 0;
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-menu-logo {
@@ -100,8 +99,6 @@ address {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts-link {
