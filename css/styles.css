@@ -43,15 +43,11 @@ ol {
 
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-menu-logo {
@@ -75,8 +71,6 @@ ol {
     display: flex;
     gap: 40px;
     margin-right: 332px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-menu-link {
@@ -89,8 +83,7 @@ ol {
 }
 
 .nav-menu-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .nav-menu-link:hover,
