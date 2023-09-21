@@ -75,6 +75,8 @@ ol {
     display: flex;
     gap: 40px;
     margin-right: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-menu-link {
