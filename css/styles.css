@@ -48,6 +48,7 @@ ol {
 .nav-menu {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .nav-menu-logo {
@@ -70,7 +71,6 @@ ol {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    margin-right: 332px;
 }
 
 .nav-menu-link {
@@ -335,5 +335,4 @@ address {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 17.5px;
 }
