@@ -114,12 +114,12 @@ address {
     color: #404bbf;
 }
 
-.slogan {
+.hero {
     background-color: #2e2f42;
     padding: 188px 0;
 }
 
-.slogan-text {
+.hero-text {
     margin: 0 auto;
     max-width: 496px;
     color: #fff;
@@ -131,7 +131,7 @@ address {
     margin-bottom: 48px;
 }
 
-.slogan-btn {
+.hero-btn {
     display: block;
     min-width: 169px;
     cursor: pointer;
@@ -148,8 +148,8 @@ address {
     margin: 0 auto;
 }
 
-.slogan-btn:hover,
-.slogan-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #404bbf;
 }
 
